@@ -1,0 +1,659 @@
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Review Process - OWASP Projects</title>
+  
+
+  <link rel="shortcut icon" href="../../favicons/OWASP_favicon.ico">
+  
+
+  
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/highlight.css">
+
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Review Process";
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js"></script>
+  <script src="../../js/modernizr-2.8.3.min.js"></script>
+  <script type="text/javascript" src="../../js/highlight.pack.js"></script>
+  <script src="../../js/theme.js"></script> 
+
+  
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../../index.html" class="icon icon-home"> OWASP Projects</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+        <ul class="current">
+          
+            <li>
+    <li class="toctree-l1 ">
+        <a class="" href="../../index.html">Home</a>
+        
+    </li>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Projects</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../new_project/index.html">New Projects</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../maturity/index.html">Project Maturity</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../classes/index.html">Project Classes</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../category/index.html">Project Categories</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../status/index.html">Project Status</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Reviews</span></li>
+
+        
+            
+    <li class="toctree-l1 current">
+        <a class="current" href="index.html">Review Process</a>
+        
+            <ul>
+            
+                <li class="toctree-l3"><a href="#why_a_review">Why a review?</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#manual_review_process">Manual Review Process</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#compliance_checklist">Compliance Checklist</a></li>
+                
+            
+                <li class="toctree-l3"><a href="#version_control">Version Control</a></li>
+                
+            
+            </ul>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../review_list/index.html">Review List</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Individual Reviews (A to Z)</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../review/appsensor/index.html">AppSensor</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../review/broken_web_applications/index.html">Broken Web Applications</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../review/csrfguard/index.html">CSRFGuard</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../review/dependency_check/index.html">Dependency Check</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../review/development_guide/index.html">Development Guide</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../review/java_html_sanitizer/index.html">Java HTML Sanitizer</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../review/modsecurity_core_rule_set/index.html">ModSecurity Core Rule Set (CRS)</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../review/mutillidae_2/index.html">Mutillidae II</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../review/owtf/index.html">OWTF</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../review/phprbac/index.html">PHPRBAC</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../review/rails_goat/index.html">Rails Goat</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../review/security_logging/index.html">Security Logging</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../review/seraphimdroid/index.html">SeraphimDroid</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../review/vulnerable_web_applications_directory/index.html">Vulnerable Web Applications Directory</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../review/web_testing_environment/index.html">Web Testing Environment</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../review/webgoat/index.html">WEBGOAT</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../review/zap/index.html">ZAP</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../review/zsc_tool/index.html">ZSC Tool</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+            <li>
+    <ul class="subnav">
+    <li><span>Licenses</span></li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../license/apache-license-2.0/index.html">Apache 2.0</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../license/CC_by-sa_3.0/index.html">CC BY-SA 3.0</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../license/gpl_v3/index.html">GPL v3.0</a>
+        
+    </li>
+
+        
+            
+    <li class="toctree-l1 ">
+        <a class="" href="../../license/lgpl_v3/index.html">LGPL v3.0</a>
+        
+    </li>
+
+        
+    </ul>
+<li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../../index.html">OWASP Projects</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../index.html">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Reviews &raquo;</li>
+        
+      
+    
+    <li>Review Process</li>
+    <li class="wy-breadcrumbs-aside">
+      
+        
+          <a href="https://github.com/OWASP" class="icon icon-github"> Edit on GitHub</a>
+        
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="why_a_review">Why a review?<a class="headerlink" href="#why_a_review" title="Permanent link">&para;</a></h2>
+<p>The purpose of this assessment is to determine whether a project meets the minimum criteria for each OWASP project.</p>
+<p>See the &lsquo;<a href="../new_project/index.html#new_project_requirements">Create a New Project</a>&lsquo; section to see all the minimum requirements.</p>
+<p>An analysis based on Qualitative content audit methodology (Martin &amp; Hannington, 2012), can help us identify the key indicators the content must have in order to be considered of sufficient quality.</p>
+<p>For this method, content is rated on the following criteria:</p>
+<ul>
+<li>
+<p>Credibility</p>
+</li>
+<li>
+<p>Originality</p>
+</li>
+<li>
+<p>Accuracy</p>
+</li>
+<li>
+<p>Accessibility</p>
+</li>
+<li>
+<p>Open Source</p>
+</li>
+<li>
+<p>Publicly Available</p>
+</li>
+</ul>
+<p>Some criteria that would be consider during the review process for projects to become flagships are:</p>
+<ul>
+<li>
+<p>Defined</p>
+</li>
+<li>
+<p>Repeatable</p>
+</li>
+<li>
+<p>Formatting/Branding</p>
+</li>
+<li>
+<p>Relevance to the audience (which is the target group?)</p>
+</li>
+<li>
+<p>Relevance to the subject (security)</p>
+</li>
+</ul>
+<h2 id="manual_review_process">Manual Review Process<a class="headerlink" href="#manual_review_process" title="Permanent link">&para;</a></h2>
+<p>The review process is manually carried out for each project and consists of the following steps:</p>
+<ol>
+<li>
+<p>Identify the project</p>
+</li>
+<li>
+<p>Get the &lsquo;Compliance Checklist&rsquo;</p>
+</li>
+<li>
+<p>Answer all questions in the checklist</p>
+</li>
+<li>
+<p>If the project is using a version control system, get all the details</p>
+</li>
+</ol>
+<h2 id="compliance_checklist">Compliance Checklist<a class="headerlink" href="#compliance_checklist" title="Permanent link">&para;</a></h2>
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Compliance Checks</strong></th>
+<th align="center"><strong>Results</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><strong>General</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">Does the project have an active project leader ?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left">Is the project free and open and not-for-profit ?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left">Is the project vendor neutral ?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left"><strong>Production</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">Has the project released something since its creation ?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left">Does the project have any activity in the last 6 months?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left">Does the project have any activity in the last 12 months?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left">Does the project have any activity in the last 24 months?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left"><strong>OWASP Wiki</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">Does the project have a wiki page hosted in OWASP ?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left">Does it has a relevant project summary hosted in OWASP ?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left">Does it has a relevant project roadmap hosted in OWASP ?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left">Does it specify at least one project owner?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left">Does it specify at least one contact email?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left">Is the wiki page up to date ?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left"><strong>Content released</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">Has the project published something since its creation ?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left">At least one update in the last 12 months ?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left">At least two updates in the last 24 months ?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left"><strong>Public Data repository</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">Has a publicly accessible data repository ?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left">Does the repository contains some data ?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left">Does the repository contains a license file ?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left">Does the repository contains what has been published ?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left"></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left"><strong>Source Code repository</strong></td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="left">Has a publicly accessible source code repository ?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left">Does the repository contains some data ?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left">Does the repository contains a license file ?</td>
+<td align="center">Yes/No</td>
+</tr>
+<tr>
+<td align="left">Does the repository contains what has been published ?</td>
+<td align="center">Yes/No</td>
+</tr>
+</tbody>
+</table>
+<h2 id="version_control">Version Control<a class="headerlink" href="#version_control" title="Permanent link">&para;</a></h2>
+<p>In case the project is storing data in a version control system, for each data repository used, the reviewer has to collect ALL the following details:</p>
+<table>
+<thead>
+<tr>
+<th align="left"><strong>Compliance Checks - for Version Control systems</strong></th>
+<th align="left"><strong>What has to be recorded</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left">Repository Status ?</td>
+<td align="left">Answers: CURRENT, OLD</td>
+</tr>
+<tr>
+<td align="left">Repository has data ?</td>
+<td align="left">Answers: YES, NO</td>
+</tr>
+<tr>
+<td align="left">Repository has source code ?</td>
+<td align="left">Answers: YES, NO</td>
+</tr>
+<tr>
+<td align="left">Repository type ?</td>
+<td align="left">Answer: technology abbreviated name</td>
+</tr>
+<tr>
+<td align="left">Repository main web page ?</td>
+<td align="left">Answer: valid web URL/URI confirmed reachable</td>
+</tr>
+<tr>
+<td align="left">Repository HTTP/HTTPS clone links ?</td>
+<td align="left">Answer: valid web URL/URI confirmed reachable</td>
+</tr>
+<tr>
+<td align="left">Repository NATIVE clone links ?</td>
+<td align="left">Answer: valid web URL/URI confirmed reachable</td>
+</tr>
+</tbody>
+</table>
+<p>Example:</p>
+<div class="codehilite"><pre>Repository_Status|CURRENT
+Repository_HasData|YES
+Repository_SourceCode|YES
+Repository_Type|GIT
+Repository_Page|&lt;https://github.com/zaproxy/zaproxy&gt;
+Repository_Link|&lt;https://github.com/zaproxy/zaproxy.git&gt;
+Repository_Link|git://github.com/zaproxy/zaproxy.git
+</pre></div>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../review_list/index.html" class="btn btn-neutral float-right" title="Review List"/>Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../status/index.html" class="btn btn-neutral" title="Project Status"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+      <p>Content is available under a Creative Commons 3.0 (CC BY-SA 3.0) License unless otherwise noted.</p>
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+	  
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+<div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+          <a class="icon icon-github" style="float: left; color: #fcfcfc"> GitHub</a>
+      
+      
+        <span><a href="../status/index.html" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../review_list/index.html" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+
+</body>
+</html>
