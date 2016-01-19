@@ -1,0 +1,92 @@
+site_name: OWASP Projects
+site_description: OWASP Project reference list
+site_author: 'Enrico Branca, Johanna Curiel'
+copyright: Content is available under a Creative Commons 3.0 (CC BY-SA 3.0) License unless otherwise noted.
+#google_analytics: ['UA-4531126-1', 'owasp.org']
+
+docs_dir: 'projects'
+site_dir: 'html'
+site_url: 'https://www.owasp.org/'
+repo_url: 'https://github.com/OWASP'
+dev_addr: '0.0.0.0:8000'
+
+theme: readthedocs
+# --->  Supported themes  <---
+# mkdocs
+# readthedocs
+# --->  Deprecated themes !!  <---
+# amelia
+# bootstrap
+# cerulean
+# cosmo
+# cyborg
+# flatly
+# journal
+# readable
+# simplex
+# slate
+# spacelab
+# united
+# yeti
+
+use_directory_urls: false
+site_favicon: 'favicons/OWASP_favicon.ico'
+extra_css: []
+extra_javascript: []
+strict: true
+markdown_extensions:
+  - smarty
+  - nl2br
+  - toc:
+      permalink: True
+      separator: "_"
+      anchorlink: False
+  - sane_lists
+  - fenced_code
+  - codehilite
+  - admonition
+  - attr_list
+  - def_list
+  - abbr
+  - tables
+  - meta
+
+pages:
+- 'Home': 'index.md'
+
+- 'Projects':
+  - 'New Projects': 'lists/new_project.md'
+  - 'Project Maturity': 'lists/maturity.md'
+  - 'Project Classes': 'lists/classes.md'
+  - 'Project Categories': 'lists/category.md'
+  - 'Project Status': 'lists/status.md'
+
+- 'Reviews':
+  - 'Review Process': 'lists/review_process.md'
+  - 'Review List':  'lists/review_list.md'
+
+- 'Individual Reviews (A to Z)':
+  - 'AppSensor': 'review/appsensor.md'
+  - 'Broken Web Applications': 'review/broken_web_applications.md'
+  - 'CSRFGuard': 'review/csrfguard.md'
+  - 'Dependency Check': 'review/dependency_check.md'
+  - 'Development Guide': 'review/development_guide.md'
+  - 'Java HTML Sanitizer': 'review/java_html_sanitizer.md'
+  - 'ModSecurity Core Rule Set (CRS)': 'review/modsecurity_core_rule_set.md'
+  - 'Mutillidae II': 'review/mutillidae_2.md'
+  - 'OWTF': 'review/owtf.md'
+  - 'PHPRBAC': 'review/phprbac.md'
+  - 'Rails Goat': 'review/rails_goat.md'
+  - 'Security Logging': 'review/security_logging.md'
+  - 'SeraphimDroid': 'review/seraphimdroid.md'
+  - 'Vulnerable Web Applications Directory': 'review/vulnerable_web_applications_directory.md'
+  - 'Web Testing Environment': 'review/web_testing_environment.md'
+  - 'WEBGOAT': 'review/webgoat.md'
+  - 'ZAP': 'review/zap.md'
+  - 'ZSC Tool': 'review/zsc_tool.md'
+
+- Licenses:
+  - 'Apache 2.0': 'license/apache-license-2.0.md'
+  - 'CC BY-SA 3.0': 'license/CC_by-sa_3.0.md'
+  - 'GPL v3.0': 'license/gpl_v3.md'
+  - 'LGPL v3.0': 'license/lgpl_v3.md'
