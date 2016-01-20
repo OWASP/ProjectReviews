@@ -57,6 +57,12 @@
      <changefreq>daily</changefreq>
     </url>
         
+    <url>
+     <loc>https://www.owasp.org//lists/reviewers/index.html</loc>
+     <lastmod>2016-01-20</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
     
 
     
