@@ -56,10 +56,6 @@ Edited:    2016-01-14 , Enrico Branca
 [20006]: https://www.owasp.org/index.php/Category:OWASP_CSRFGuard_Project
 [30006]: ../review/csrfguard.md
 
-[10006]: https://www.owasp.org/index.php/Category:OWASP_CSRFGuard_Project
-[20006]: https://www.owasp.org/index.php/Category:OWASP_CSRFGuard_Project
-[30006]: ../review/csrfguard.md
-
 [10007]: https://www.owasp.org/index.php/OWASP_AppSensor_Project
 [20007]: https://www.owasp.org/index.php/OWASP_AppSensor_Project
 [30007]: ../review/appsensor.md

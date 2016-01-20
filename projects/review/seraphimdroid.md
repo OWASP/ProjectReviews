@@ -1,47 +1,49 @@
 Project:     OWASP SeraphimDroid
-Created:     2016-01-19 , Enrico Branca
-Edited:      2016-01-19 , Enrico Branca
+Created:     2016-01-19 , Enrico Branca  
+Edited:      2016-01-19 , Enrico Branca  
 
 
-[//]: # (BE SURE THERE ARE NO EMPTY LINES BEFORE 'Project')
-[//]: # (end each line of the metadata with TWO spaces before the newline)
-[//]: # (insert TWO blank lines after the metadata)
-[//]: # (<ADD YOUR TEXT STARTING FROM HERE>)
+[//]: # (BE SURE THERE ARE NO EMPTY LINES BEFORE 'Project')  
+[//]: # (end each line of the metadata with TWO spaces before the newline)  
+[//]: # (insert TWO blank lines after the metadata)  
+[//]: # (<ADD YOUR TEXT STARTING FROM HERE>)  
 
 
 
 
-## Project Data
+## Project Data  
 
-**Project Name**: OWASP SeraphimDroid
-**Maturity**: Incubator
-**Classification**: Builders, Defenders
-**Type**: Code
+**Project Name**: OWASP SeraphimDroid  
+**Maturity**: Incubator  
+**Classification**: Builders, Defenders  
+**Type**: Code  
 
-**Leader**: *Nikola Milosevic*
-**Contact Email**: <nikola.milosevic@owasp.org>
+**Leader**: *Nikola Milosevic*  
+**Contact Email**: <nikola.milosevic@owasp.org>  
 
 
-**OWASP project page**:
+**OWASP project page**:  
 <https://www.owasp.org/index.php/OWASP_SeraphimDroid_Project>
 
-**Main website**:
+**Main website**:  
 <https://www.owasp.org/index.php/OWASP_SeraphimDroid_Project>
 
-**Other websites**:
+**Other websites**:  
 - *None*
 
-## Project Reviews
+## Project Reviews  
 
-| **Review ID** |   **Review Date**   |  **Project Status** |  **Has Issues**  |
-|:-------------:|:-------------------:|:-------------------:|:----------------:|
-| 1             | 2016-01-19          |    Active           |     No           |
+| **Review ID** |   **Review Date**   |  **Reviewer**              |  **Project Status** |  **Has Issues**  |  
+|:-------------:|:-------------------:|:--------------------------:|:-------------------:|:----------------:|  
+| 1             | 2016-01-19          | [Enrico Branca][001]       |    Active           |     No           |  
+
+[001]: ../lists/reviewers#enrico_branca
 
 **Issues**:
 - Review 1:  *None*
 
 
-## Review Details
+## Review Details  
 
 |     **Compliance Checks**                                   |    **Results**     |
 |:------------------------------------------------------------|:------------------:|
@@ -83,7 +85,7 @@ Edited:      2016-01-19 , Enrico Branca
 
 
 
-## Public Repositories
+## Public Repositories  
 
 Repository_Status|CURRENT
 Repository_HasData|YES

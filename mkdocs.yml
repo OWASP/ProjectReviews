@@ -10,6 +10,7 @@ site_url: 'https://www.owasp.org/'
 repo_url: 'https://github.com/OWASP'
 dev_addr: '0.0.0.0:8000'
 
+#theme_dir: 'custom_theme_cinder'
 theme: readthedocs
 # --->  Supported themes  <---
 # mkdocs
@@ -64,6 +65,7 @@ pages:
 - 'Reviews':
   - 'Review Process': 'lists/review_process.md'
   - 'Review List':  'lists/review_list.md'
+  - 'Reviewers':  'lists/reviewers.md'
 
 - 'Individual Reviews (A to Z)':
   - 'AppSensor': 'review/appsensor.md'
@@ -84,6 +86,7 @@ pages:
   - 'WEBGOAT': 'review/webgoat.md'
   - 'ZAP': 'review/zap.md'
   - 'ZSC Tool': 'review/zsc_tool.md'
+
 
 - Licenses:
   - 'Apache 2.0': 'license/apache-license-2.0.md'

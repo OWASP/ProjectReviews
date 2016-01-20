@@ -1,47 +1,49 @@
-Project:     OWASP Rails Goat Project
-Created:     2016-01-19 , Enrico Branca
-Edited:      2016-01-19 , Enrico Branca
+Project:     OWASP Rails Goat Project  
+Created:     2016-01-19 , Enrico Branca  
+Edited:      2016-01-19 , Enrico Branca  
 
 
-[//]: # (BE SURE THERE ARE NO EMPTY LINES BEFORE 'Project')
-[//]: # (end each line of the metadata with TWO spaces before the newline)
-[//]: # (insert TWO blank lines after the metadata)
-[//]: # (<ADD YOUR TEXT STARTING FROM HERE>)
+[//]: # (BE SURE THERE ARE NO EMPTY LINES BEFORE 'Project')  
+[//]: # (end each line of the metadata with TWO spaces before the newline)  
+[//]: # (insert TWO blank lines after the metadata)  
+[//]: # (<ADD YOUR TEXT STARTING FROM HERE>)  
 
 
-## Project Data
+## Project Data  
 
-**Project Name**: OWASP Rails Goat
+**Project Name**: OWASP Rails Goat  
 **Maturity**: Incubator
 **Classification**: Breakers, Defenders
 **Type**: Code, Tool
 
-**Leader**: *Ken Johnson*
-**Contact Email**: <ken.johnson@owasp.org>
+**Leader**: *Ken Johnson*  
+**Contact Email**: <ken.johnson@owasp.org>  
 
-**Leader**: *Mike McCabe*
-**Contact Email**: <mike.mccabe@owasp.org>
+**Leader**: *Mike McCabe*  
+**Contact Email**: <mike.mccabe@owasp.org>  
 
-**OWASP project page**:
+**OWASP project page**:  
 <https://www.owasp.org/index.php/OWASP_Rails_Goat_Project>
 
-**Main website**:
+**Main website**:  
 <http://railsgoat.cktricky.com>
 
-**Other websites**:
+**Other websites**:  
 - *None*
 
-## Project Reviews
+## Project Reviews  
 
-| **Review ID** |   **Review Date**   |  **Project Status** |  **Has Issues**  |
-|:-------------:|:-------------------:|:-------------------:|:----------------:|
-| 1             | 2016-01-19          |    Active           |     No           |
+| **Review ID** |   **Review Date**   |  **Reviewer**              |  **Project Status** |  **Has Issues**  |  
+|:-------------:|:-------------------:|:--------------------------:|:-------------------:|:----------------:|  
+| 1             | 2016-01-19          | [Enrico Branca][001]       |    Active           |     No           |  
+
+[001]: ../lists/reviewers#enrico_branca
 
 **Issues**:
 - Review 1:  *None*
 
 
-## Review Details
+## Review Details  
 
 |     **Compliance Checks**                                   |    **Results**     |
 |:------------------------------------------------------------|:------------------:|
@@ -83,7 +85,7 @@ Edited:      2016-01-19 , Enrico Branca
 
 
 
-## Public Repositories
+## Public Repositories  
 
 Repository_Status|CURRENT
 Repository_HasData|YES

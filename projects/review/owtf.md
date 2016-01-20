@@ -1,43 +1,45 @@
-Project:     OWASP OWTF
-Created:     2016-01-14 , Enrico Branca
-Edited:      2016-01-15 , Enrico Branca
+Project:     OWASP OWTF  
+Created:     2016-01-14 , Enrico Branca  
+Edited:      2016-01-15 , Enrico Branca  
 
 
-[//]: # (BE SURE THERE ARE NO EMPTY LINES BEFORE 'Project')
-[//]: # (end each line of the metadata with TWO spaces before the newline)
-[//]: # (insert TWO blank lines after the metadata)
-[//]: # (<ADD YOUR TEXT STARTING FROM HERE>)
+[//]: # (BE SURE THERE ARE NO EMPTY LINES BEFORE 'Project')  
+[//]: # (end each line of the metadata with TWO spaces before the newline)  
+[//]: # (insert TWO blank lines after the metadata)  
+[//]: # (<ADD YOUR TEXT STARTING FROM HERE>)  
 
-## Project Data
+## Project Data  
 
-**Project Name**: OWASP OWTF
-**Maturity**: Flagship
-**Classification**: Builders, Defenders
-**Type**: Code
+**Project Name**: OWASP OWTF  
+**Maturity**: Flagship  
+**Classification**: Builders, Defenders  
+**Type**: Code  
 
-**Leader**: *Abraham Aranguren*
-**Contact Email**: <abraham.aranguren@owasp.org>
+**Leader**: *Abraham Aranguren*  
+**Contact Email**: <abraham.aranguren@owasp.org>  
 
-**OWASP project page**:
+**OWASP project page**:  
 <https://www.owasp.org/index.php/OWASP_OWTF>
 
-**Main website**:
+**Main website**:  
 <https://www.owasp.org/index.php/OWASP_OWTF>
 
-**Other websites**:
+**Other websites**:  
 - *None*
 
-## Project Reviews
+## Project Reviews  
 
-| **Review ID** |   **Review Date**   |  **Project Status** |  **Has Issues**  |
-|:-------------:|:-------------------:|:-------------------:|:----------------:|
-| 1             | 2015-11-12          |    Active           |     No           |
+| **Review ID** |   **Review Date**   |  **Reviewer**              |  **Project Status** |  **Has Issues**  |  
+|:-------------:|:-------------------:|:--------------------------:|:-------------------:|:----------------:|  
+| 1             | 2015-11-12          | [Enrico Branca][001]       |    Active           |     No           |  
+
+[001]: ../lists/reviewers#enrico_branca
 
 **Issues**:
 - Review 1:  *None*
 
 
-## Review Details
+## Review Details  
 
 |     **Compliance Checks**                                   |    **Results**     |
 |:------------------------------------------------------------|:------------------:|
@@ -79,7 +81,7 @@ Edited:      2016-01-15 , Enrico Branca
 
 
 
-## Public Repositories
+## Public Repositories  
 
 Repository_Status|CURRENT
 Repository_HasData|YES
