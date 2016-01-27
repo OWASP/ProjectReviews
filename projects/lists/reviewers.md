@@ -1,6 +1,7 @@
 Title:     OWASP Project Reviewers
 Created:   2016-01-20 , Enrico Branca  
 Edited:    2016-01-20 , Enrico Branca  
+Edited:    2016-01-27 , Enrico Branca  
 
 [//]: # (BE SURE THERE ARE NO EMPTY LINES BEFORE 'Title')  
 [//]: # (end each line of the metadata with TWO spaces before the newline)  
@@ -34,6 +35,45 @@ Enrico Branca is an experienced researcher with specialist knowledge in Cyber Se
 2016-01-19: [OWASP Vulnerable Web Applications Directory](../review/vulnerable_web_applications_directory.md)
 2016-01-19: [OWASP WEBGOAT](../review/webgoat.md)
 2016-01-19: [OWASP ZSC Tool](../review/zsc_tool.md)
+2016-01-27: [OWASP Wapiti](../review/wapiti.md)
+2016-01-27: [OWASP Bywaf](../review/bywaf.md)
+2016-01-27: [OWASP Hatkit Datafiddler](../review/hatkit_datafiddler.md)
+2016-01-27: [OWASP Hatkit Proxy](../review/hatkit_proxy.md)
+2016-01-27: [OWASP Proxy](../review/proxy.md)
+2016-01-27: [OWASP ASIDE](../review/aside.md)
+2016-01-27: [OWASP Esapi Ruby](../review/esapi_ruby.md)
+2016-01-27: [OWASP EnDe](../review/ende.md)
+2016-01-27: [OWASP PCI Toolkit](../review/pci_toolkit.md)
+2016-01-27: [OWASP Xenotix XSS Exploit Framework](../review/xenotix.md)
+2016-01-27: [OWASP SafeNuGet](../review/safenuget.md)
+2016-01-27: [OWASP KALP Mobile](../review/kalp_mobile.md)
+2016-01-27: [OWASP PHP Security](../review/php_security.md)
+2016-01-27: [O-Saft](../review/o_saft.md)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
