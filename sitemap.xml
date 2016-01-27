@@ -4,7 +4,7 @@
     
     <url>
      <loc>https://www.owasp.org//index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
     
@@ -13,31 +13,31 @@
         
     <url>
      <loc>https://www.owasp.org//lists/new_project/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//lists/maturity/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//lists/classes/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//lists/category/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//lists/status/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -47,19 +47,19 @@
         
     <url>
      <loc>https://www.owasp.org//lists/review_process/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//lists/review_list/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//lists/reviewers/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -69,109 +69,193 @@
         
     <url>
      <loc>https://www.owasp.org//review/appsensor/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://www.owasp.org//review/aside/index.html</loc>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//review/broken_web_applications/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://www.owasp.org//review/bywaf/index.html</loc>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//review/csrfguard/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//review/dependency_check/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//review/development_guide/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://www.owasp.org//review/ende/index.html</loc>
+     <lastmod>2016-01-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://www.owasp.org//review/esapi_ruby/index.html</loc>
+     <lastmod>2016-01-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://www.owasp.org//review/hatkit_datafiddler/index.html</loc>
+     <lastmod>2016-01-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://www.owasp.org//review/hatkit_proxy/index.html</loc>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//review/java_html_sanitizer/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://www.owasp.org//review/kalp_mobile/index.html</loc>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//review/modsecurity_core_rule_set/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//review/mutillidae_2/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://www.owasp.org//review/o_saft/index.html</loc>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//review/owtf/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://www.owasp.org//review/pci_toolkit/index.html</loc>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//review/phprbac/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://www.owasp.org//review/php_security/index.html</loc>
+     <lastmod>2016-01-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://www.owasp.org//review/proxy/index.html</loc>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//review/rails_goat/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://www.owasp.org//review/safenuget/index.html</loc>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//review/security_logging/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//review/seraphimdroid/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//review/vulnerable_web_applications_directory/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://www.owasp.org//review/wapiti/index.html</loc>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//review/web_testing_environment/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//review/webgoat/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
+     <changefreq>daily</changefreq>
+    </url>
+        
+    <url>
+     <loc>https://www.owasp.org//review/xenotix/index.html</loc>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//review/zap/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//review/zsc_tool/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
@@ -181,25 +265,25 @@
         
     <url>
      <loc>https://www.owasp.org//license/apache-license-2.0/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//license/CC_by-sa_3.0/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//license/gpl_v3/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
     <url>
      <loc>https://www.owasp.org//license/lgpl_v3/index.html</loc>
-     <lastmod>2016-01-20</lastmod>
+     <lastmod>2016-01-27</lastmod>
      <changefreq>daily</changefreq>
     </url>
         
