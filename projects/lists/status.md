@@ -23,12 +23,12 @@ Edited:    2016-01-19 , Enrico Branca
 ## New
 
 !!! danger "DATA NOT FOUND: Nothing in OWASP official documents."
-    **Write description from sratch**
+    **Write description from scratch**
 
 ## Active
 
 !!! danger "DATA NOT FOUND: Nothing in OWASP official documents."
-    **Write description from sratch**
+    **Write description from scratch**
 
 ## Low-Activity
 

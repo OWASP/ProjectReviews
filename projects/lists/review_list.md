@@ -30,7 +30,7 @@ Edited:    2016-01-27 , Enrico Branca
 | [OWASP KALP Mobile][10030]                               | [Link][20030] |  [Report][30030]  | Tools         |   Incubator    |   Active    |
 | [OWASP ModSecurity Core Rule Set (CRS)][10005]           | [Link][20005] |  [Report][30005]  | Code          |   Flagship     |   Active    |
 | [OWASP Mutillidae II][10016]                             | [Link][20016] |  [Report][30016]  | Code, Tools   |   Incubator    |   Active    |
-| [O-Saft][10032]                                          | [Link][20032] |  [Report][30032]  | Tool          |   Lab          |   Active    |
+| [O-Saft][10032]                                          | [Link][20032] |  [Report][30032]  | Tools         |   Lab          |   Active    |
 | [OWASP OWTF][10003]                                      | [Link][20003] |  [Report][30003]  | Code, Tools   |   Flagship     |   Active    |
 | [OWASP PCI Toolkit][10027]                               | [Link][20027] |  [Report][30027]  | Tools         |   Incubator    |   Active    |
 | [OWASP PHPRBAC][10009]                                   | [Link][20009] |  [Report][30009]  | Code          |   Incubator    |   Active    |
