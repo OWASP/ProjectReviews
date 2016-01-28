@@ -32,7 +32,7 @@ Edited:      2016-01-01 , Enrico Branca
 
 | **Review ID** |   **Review Date**   |  **Reviewer**              |  **Project Status** |  **Has Issues**  |  
 |:-------------:|:-------------------:|:--------------------------:|:-------------------:|:----------------:|  
-| 1             | 2016-01-27          | [Enrico Branca][001]       |    Inactive         |     No           |  
+| 1             | 2016-01-27          | [Enrico Branca][001]       |    Archived         |     No           |  
 
 [001]: ../lists/reviewers#enrico_branca
 
